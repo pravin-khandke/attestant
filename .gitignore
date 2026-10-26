@@ -1,0 +1,23 @@
+# build output
+target/
+dist/
+build/
+out/
+
+# dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# evidence packs are inputs to review, not sources
+*.pack.json
+
+# local config and secrets
+.env
+*.local
+
+# editors and OS
+.DS_Store
+.idea/
+.vscode/
